@@ -4,10 +4,6 @@
   This is project generated to serve as a reproduction starter for Storybook.
 </p>
 
-<a  href="https://stackblitz.com/github/storybookjs/sandboxes/tree/next/cra/default-js/after-storybook?preset=node=">
-  View it in Stackblitz
-</a>
-
 <h3>Testing instructions</h3>
 
 <p>Install dependencies:</p>
@@ -15,10 +11,8 @@
   yarn
 </pre>
 
-<p>Run Storybook:</p>
-<pre>
-  yarn storybook
-</pre>
+<p> Run the tests</p>
+<pre>yarn test</pre>
 
 <h3>Running the test throws act warnings when stories are imported in tests</h3>
 <pre>
@@ -33,5 +27,5 @@
     /* assert on the output */
     
     This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
-        at ActWarning (/Users/asoni/sbdemo/cra/default-js/src/stories/ActWarning.jsx:4:52)
+        at ActWarning (/Users/username/sbdemo/cra/default-js/src/stories/ActWarning.jsx:4:52)
 </pre>
