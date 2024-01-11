@@ -1,7 +1,7 @@
 <h1>Create React App Latest (Webpack | JavaScript)</h1>
 
 <p>
-  This is project generated to serve as a reproduction starter for Storybook.
+  This is project generated to serve as a reproduction starter for Storybook. https://github.com/storybookjs/storybook/issues/25304
 </p>
 
 <h3>Testing instructions</h3>
